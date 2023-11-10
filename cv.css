@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(178, 224, 224);
+  font-size: 19px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+  color: rgb(151, 88, 7);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+
+.photo {
+  width: 250px;
+  border-radius: 100px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+.info {
+  display: flex;
+}
+.infotext {
+  margin-left: 100px;
+}
+.infotext h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: rgb(3, 3, 93);
+  margin: 5px;
+  font-style: italic;
+  font-weight: bold;
+  word-spacing: 3px;
+}
+.container {
+  max-width: 75%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card {
+  padding: 25px 30 px;
+  background-color: rgb(236, 183, 119);
+  border-radius: 20px;
+}
+.list {
+  padding: 0 20px;
+  margin: 20px;
+}
+.list li {
+  padding-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(1) {
+  color: rgb(133, 10, 10);
+}
+.table tr:nth-child(odd) {
+  background-color: rgb(160, 197, 85);
+}
+.h2 {
+  text-decoration: underline;
+  color: rgb(165, 79, 42);
+}
+.contact h2 {
+  text-align: center;
+}
+.formgroup label {
+  display: block;
+  font-size: 14px;
+  color: rgb(165, 79, 42);
+}
+.formgroup input,
+.formgroup textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(165, 87, 42);
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .formgroup {
+  width: 50%;
+  margin-right: 20px;
+}
+.btn {
+  color: rgb(158, 93, 8);
+  padding: 15px 20px;
+  background-color: rgb(136, 194, 175);
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
